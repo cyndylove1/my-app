@@ -67,7 +67,7 @@ export default function AboutMe() {
           <span className="text-(--primary)">#</span>skills
         </h2>
         <SkillsGrid
-          cols="grid-cols-1 md:grid-cols-5"
+          cols="grid-cols-1 md:grid-cols-3 lg:grid-cols-5"
           renderItem={(content, index) => (
             <AnimatedItem index={index} delay={0.07 * index}>
               {content}

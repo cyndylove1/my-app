@@ -42,7 +42,7 @@ export default function Contact() {
       <div className="grid lg:grid-cols-2 grid-cols-1 items-start">
         {/* Left text */}
         <AnimatedItem index={0} delay={0.05}>
-          <div className="md:text-[14px] text-[12px] leading-[25px] text-(--gray) w-[100%]">
+          <div className="md:text-[14px] text-[12px] leading-[25px] text-(--gray) w-[75%]">
             <p>
               I’m interested in any opportunities. However, if you have other
               request or question, don’t hesitate to contact me.

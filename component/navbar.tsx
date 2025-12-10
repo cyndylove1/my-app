@@ -55,7 +55,7 @@ export default function Navbar() {
         <Logo />
         <button
           onClick={() => setIsMobileOpen(!isMobileOpen)}
-          className="text-gray-300 focus:outline-none text-2xl"
+          className="text-white focus:outline-none text-2xl"
         >
           <TbMenu />
         </button>
@@ -73,7 +73,7 @@ export default function Navbar() {
             <Logo />
             <button
               onClick={() => setIsMobileOpen(false)}
-              className="text-gray-300 text-2xl focus:outline-none"
+              className="text-white text-2xl focus:outline-none"
             >
               <IoCloseOutline/>
             </button>

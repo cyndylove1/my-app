@@ -26,7 +26,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#282c33] text-gray-300">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[#282c33] text-(--gray)">
       {/* Desktop Navbar */}
       <div className="hidden md:flex items-center justify-between py-10 md:px-8 lg:px-[4rem] xl:px-[6rem]  px-4">
         <Logo />
@@ -41,7 +41,7 @@ export default function Navbar() {
                 }`}
               >
                 <Link href={link.href}>
-                  <span className="text-[#9b59b6]">#</span>
+                  <span className="text-(--primary)">#</span>
                   {link.label}
                 </Link>
               </li>
@@ -91,7 +91,7 @@ export default function Navbar() {
                   }`}
                 >
                   <Link href={link.href} onClick={() => setIsMobileOpen(false)}>
-                    <span className="text-[#9b59b6]">#</span>
+                    <span className="text-text-(--primary)">#</span>
                     {link.label}
                   </Link>
                 </li>

@@ -60,7 +60,14 @@ export default function Navbar() {
           <TbMenu />
         </button>
       </div>
-
+      
+      {/* Overlay */}
+      {isMobileOpen && (
+        <div
+          className="fixed inset-0 bg-black/50 z-40 md:hidden"
+          onClick={() => setIsMobileOpen(!isMobileOpen)}
+        ></div>
+      )}
       {/* Mobile Sidebar*/}
       <div
         className={`fixed top-0 right-0 h-full w-84 bg-[#282c33] shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
@@ -75,7 +82,7 @@ export default function Navbar() {
               onClick={() => setIsMobileOpen(false)}
               className="text-white text-2xl focus:outline-none"
             >
-              <IoCloseOutline/>
+              <IoCloseOutline />
             </button>
           </div>
 

@@ -27,7 +27,7 @@ export default function HeroContent() {
             <p className="text-(--gray) leading-[25px] mt-2 mb-6 md:text-[14px] text-[12px] xl:text-[16px] lg:max-w-[500px]">
               I am a Frontend Developer,&nbsp;I provide clean codes and pixel
               perfect designs. I enjoy solving problems, improving user
-              experience, and staying updated with the latest web technologies.
+              experience and staying updated with the latest web technologies.
             </p>
           </AnimatedItem>
 

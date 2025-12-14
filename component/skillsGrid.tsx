@@ -58,6 +58,8 @@ export default function SkillsGrid({
         "Context-Api",
         "React-Query",
         "Redux-Toolkit",
+        "Swagger UI",
+        "Postman"
       ],
     },
   ];

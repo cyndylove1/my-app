@@ -96,7 +96,7 @@ export default function Projects() {
         </h2>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {projects.map((p, index) => (
             <AnimatedItem key={index} index={index} delay={0.05 * index}>
               <div className="border border-gray-600 rounded-sm overflow-hidden bg-[#2c3036] h-full flex flex-col">

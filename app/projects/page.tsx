@@ -123,7 +123,7 @@ export default function Projects() {
                     <div className="flex items-center gap-[20px] mt-4">
                       <div className="flex gap-3">
                         {p.buttons.map((btn, i) => (
-                          <Link key={i} href={p.live ?? "#"} target="_blank">
+                          <Link key={i} href={p.live ?? "#"}>
                             <Button text={btn} hideIcon />
                           </Link>
                         ))}
@@ -145,7 +145,7 @@ export default function Projects() {
           <DotIcon width={84} height={84} />
         </div>
         {/* right icon */}
-        <div className="absolute -right-10 top-[14rem] w-[91px] h-[91px] border border-(--gray) z-0 hidden lg:flex"></div>
+        <div className="absolute -right-10 top-[10rem] w-[91px] h-[91px] border border-(--gray) z-0 hidden lg:flex"></div>
       </section>
     </>
   );

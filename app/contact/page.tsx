@@ -33,7 +33,7 @@ export default function Contact() {
       );
   };
   return (
-    <section className="w-full text-gray-200 lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 pb-[6rem] pt-[7rem] relative">
+    <section className="w-full text-white lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 pb-[6rem] pt-[7rem] relative">
       {/* Title */}
       <h2 className="text-[26px] font-semibold whitespace-nowrap mb-4">
         <span className="text-(--primary)">/</span>contacts
@@ -94,7 +94,7 @@ export default function Contact() {
           </form>
         </AnimatedItem>
       </div>
-      <div className="absolute -left-10 top-[4rem] z-0 hidden lg:flex">
+      <div className="absolute -left-10 top-[10rem] z-0 hidden lg:flex">
         <DotIcon width={84} height={84} />
       </div>
     </section>

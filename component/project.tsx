@@ -99,7 +99,7 @@ export default function Project() {
                     <div className="flex items-center gap-[20px] mt-4">
                       <div className="flex gap-3">
                         {p.buttons.map((btn, i) => (
-                          <Link key={i} href={p.live ?? "#"} target="_blank">
+                          <Link key={i} href={p.live ?? "#"}>
                             <Button text={btn} hideIcon />
                           </Link>
                         ))}

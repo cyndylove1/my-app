@@ -10,7 +10,7 @@ import { AnimatedItem } from "@/component/animatedItem";
 export default function AboutMe() {
   return (
     <section>
-      <div className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 relative">
+      <div className="w-full text-white py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 relative">
         {/* Left Content */}
         <div className="xl:max-w-lg">
           <h2 className="text-[26px] font-semibold mb-10 whitespace-nowrap">
@@ -79,7 +79,7 @@ export default function AboutMe() {
       <FunFacts />
 
       {/* left Icon */}
-      <div className="absolute -left-10 top-[14rem] z-0 hidden lg:flex">
+      <div className="absolute -left-10 top-[10rem] z-0 hidden lg:flex">
         <DotIcon width={84} height={84} />
       </div>
     </section>

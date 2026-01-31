@@ -1,7 +1,7 @@
 "use client";
 import { AnimatedItem } from "./animatedItem";
 import Image from "next/image";
-import hero from "@/public/woman with.png";
+import hero from "@/app/assets/woman with.png";
 import DotIcon from "./dotIcon";
 import Title from "./title";
 import Button from "./button";

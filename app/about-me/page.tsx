@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import hero from "@/app/assets/woman with.png";
+import hero from "@/public/assets/woman with.png";
 import DotIcon from "../../component/dotIcon";
 import SkillsGrid from "@/component/skillsGrid";
 import FunFacts from "@/component/funFacts";

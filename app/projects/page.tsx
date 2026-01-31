@@ -4,12 +4,12 @@ import Image, { StaticImageData } from "next/image";
 import { IoLogoGithub } from "react-icons/io5";
 import { AnimatedItem } from "@/component/animatedItem";
 import Link from "next/link";
-import suft from "../assets/suft.png";
-import chequemate from "../assets/chequemate 2.png";
-import mental from "../assets/mental.png";
-import flowApp from "../assets/flow app1.png";
-import blott from "../assets/blottImage.png";
-import dashboard from "../assets/dashboard 2.png";
+import suft from "@/public/assets/suft.png";
+import chequemate from "@/public/assets/chequemate 2.png";
+import mental from "@/public/assets/mental.png";
+import flowApp from "@/public/assets/flow app1.png";
+import blott from "@/public/assets/blottImage.png";
+import dashboard from "@/public/assets/dashboard 2.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
 

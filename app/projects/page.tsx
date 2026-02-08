@@ -10,6 +10,7 @@ import mental from "@/public/assets/mental.png";
 import flowApp from "@/public/assets/flow app1.png";
 import blott from "@/public/assets/blottImage.png";
 import dashboard from "@/public/assets/dashboard 2.png";
+import nextaflow from "@/public/assets/nextaflow2.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
 
@@ -26,6 +27,16 @@ type Project = {
 
 export default function Projects() {
   const projects: Project[] = [
+    {
+      image: nextaflow,
+      stack:
+        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
+      title: "NextaFlow",
+      desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
+      buttons: ["Live <~>"],
+      live: "https://nextaflow-marketing.vercel.app/",
+      github: "https://github.com/cyndylove1/nextaflow-marketing",
+    },
     {
       image: suft,
       stack:
@@ -188,12 +199,12 @@ export default function Projects() {
                       {/* BUTTONS (DIRECT HOVER ONLY) */}
                       <div className="flex gap-3">
                         {p.buttons.map((btn, i) => (
-                          <Link key={i} href={p.live ?? "#"}>
+                          <a key={i} href={p.live ?? "#"} target="blank">
                             <Button
                               text={btn}
                               hideIcon
                             />
-                          </Link>
+                          </a>
                         ))}
                       </div>
 

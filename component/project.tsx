@@ -8,6 +8,7 @@ import suft from "@/public/assets/suft.png";
 import chequemate from "@/public/assets/chequemate 2.png";
 import blott from "@/public/assets/blottImage.png";
 import nextaflow from "@/public/assets/nextaflow2.png";
+import nexta from "@/public/assets/nexta1.png";
 import Button from "./button";
 import DotIcon from "./dotIcon";
 import Title from "./title";
@@ -26,11 +27,21 @@ type Project = {
 export default function Project() {
   const projects: Project[] = [
     {
-      image: nextaflow,
+      image: nexta,
       stack:
         "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
       title: "NextaFlow",
       desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
+      buttons: ["Live <~>"],
+      live: "https://www.nextaflow.net/",
+      github: "https://github.com/edoubleone/nextaflowFrontend",
+    },
+    {
+      image: nextaflow,
+      stack:
+        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
+      title: "NextaFlow",
+      desc: "NextaFlow 30 days free trial for free set up.",
       buttons: ["Live <~>"],
       live: "https://nextaflow-marketing.vercel.app/",
       github: "https://github.com/cyndylove1/nextaflow-marketing",

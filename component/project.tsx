@@ -40,7 +40,7 @@ export default function Project() {
       image: nextaflow,
       stack:
         "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
-      title: "NextaFlow",
+      title: "NextaFlow Free trial",
       desc: "NextaFlow 30 days free trial for free set up.",
       buttons: ["Live <~>"],
       live: "https://nextaflow-marketing.vercel.app/",

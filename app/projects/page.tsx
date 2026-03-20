@@ -35,8 +35,8 @@ export default function Projects() {
       title: "NextaFlow",
       desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
       buttons: ["Live <~>"],
-      live: "https://www.nextaflow.net/",
-      github: "https://github.com/edoubleone/nextaflowFrontend",
+      live: "https://nextaflow-main.vercel.app/",
+      github: "https://github.com/cyndylove1/nextaflow",
     },
     {
       image: nextaflow,

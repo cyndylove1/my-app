@@ -8,13 +8,11 @@ import suft from "@/public/assets/suft.png";
 import chequemate from "@/public/assets/chequemate 2.png";
 import mental from "@/public/assets/mental.png";
 import flowApp from "@/public/assets/flow app1.png";
-import blott from "@/public/assets/blottImage.png";
-import dashboard from "@/public/assets/dashboard 2.png";
-import nextaflow from "@/public/assets/nextaflow2.png";
-import nexta from "@/public/assets/nexta1.png";
+import rsa from "@/public/assets/rsa1.png";
+import lapo from "@/public/assets/lapo1.png";
+import propapay from "@/public/assets/propapay1.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
-
 
 type Project = {
   image: StaticImageData;
@@ -29,24 +27,24 @@ type Project = {
 export default function Projects() {
   const projects: Project[] = [
     {
-      image: nexta,
+      image: propapay,
       stack:
-        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
-      title: "NextaFlow",
-      desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
+        "React js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
+      title: "Propapay",
+      desc: "PropaPay is a real estate platform that simplifies property buying, selling, renting, and investment management by connecting users with verified property listings and secure payment solutions.",
       buttons: ["Live <~>"],
-      live: "https://nextaflow-main.vercel.app/",
-      github: "https://github.com/cyndylove1/nextaflow",
+      live: "https://propapay-tech-red.vercel.app/",
+      github: "https://github.com/cyndylove1/propapay-tech",
     },
     {
-      image: nextaflow,
+      image: lapo,
       stack:
-        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
-      title: "NextaFlow Free trial",
-      desc: "NextaFlow 30 days free trial for free set up.",
+        "Reactjs, Tailwindcss, Daisy UI, Typescript, Material UI, Recharts",
+      title: "Lapo MicroFinance Dashboard",
+      desc: "A simple dashboard showing every activities of a user",
       buttons: ["Live <~>"],
-      live: "https://nextaflow-marketing.vercel.app/",
-      github: "https://github.com/cyndylove1/nextaflow-marketing",
+      live: "https://lapo-psi.vercel.app/",
+      github: "https://github.com/cyndylove1/Lapo",
     },
     {
       image: suft,
@@ -59,13 +57,13 @@ export default function Projects() {
       github: "https://github.com/cyndylove1/suft",
     },
     {
-      image: blott,
+      image: rsa,
       stack: "Next js, Tailwindcss, typescript, React-Query, Apis",
-      title: "Blott News",
-      desc: "News Channel",
+      title: "Residential Staffing Agency",
+      desc: "An agency dedicated to delivering reliable, compassionate, and high-quality care solutions.",
       buttons: ["Live <~>"],
-      live: "https://blott-news.vercel.app/",
-      github: "https://github.com/cyndylove1/Blott",
+      live: "https://rsaproject-xi.vercel.app/",
+      github: "https://github.com/edoubleone/rsaproject",
     },
     {
       image: chequemate,
@@ -93,16 +91,6 @@ export default function Projects() {
       buttons: ["Live <~>"],
       live: "https://mental-health-form.vercel.app/",
       github: "https://github.com/cyndylove1/mental-health",
-    },
-    {
-      image: dashboard,
-      stack:
-        "React js, Tailwindcss, Javascript, Material UI, react-chartjs-2, recharts",
-      title: "Lapo",
-      desc: "MicroFinance bank DashBoard",
-      buttons: ["Live <~>"],
-      live: "https://lapo-psi.vercel.app/dashboard",
-      github: "https://github.com/cyndylove1/Lapo",
     },
   ];
 
@@ -211,10 +199,7 @@ export default function Projects() {
                       <div className="flex gap-3">
                         {p.buttons.map((btn, i) => (
                           <a key={i} href={p.live ?? "#"} target="blank">
-                            <Button
-                              text={btn}
-                              hideIcon
-                            />
+                            <Button text={btn} hideIcon />
                           </a>
                         ))}
                       </div>

@@ -39,7 +39,7 @@ export default function FunFacts() {
       <AnimatedItem index={facts.length} delay={0.05 * facts.length + 0.2}>
         <div className="relative w-[200px] hidden lg:flex">
           {/* Dot Grid */}
-          <div className="absolute -top-10 right-[7rem]">
+          <div className="absolute -top-8 right-[5rem]">
             <DotIcon width={84} height={84} />
           </div>
           <div className="absolute top-10 right-0">

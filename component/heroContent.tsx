@@ -33,8 +33,8 @@ export default function HeroContent() {
 
           <AnimatedItem index={3} delay={0.2}>
             <a
-              href="Nweke Cynthia  Resume.pdf"
-              download="Nweke Cynthia  Resume.pdf"
+              href="Nweke Chinenye Cynthia  Resume.pdf"
+              download="Nweke Chinenye Cynthia  Resume.pdf"
             >
               <Button text="Download Cv" hideIcon={true} />
             </a>

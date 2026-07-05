@@ -4,12 +4,10 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io5";
 import { AnimatedItem } from "./animatedItem";
-import suft from "@/public/assets/suft.png";
-import chequemate from "@/public/assets/chequemate 2.png";
 import lapo from "@/public/assets/lapo1.png";
+import foody from "@/public/assets/foody4.png"
 import propapay from "@/public/assets/propapay1.png";
 import rsa from "@/public/assets/rsa1.png";
-import nextaflow from "@/public/assets/nextaflow2.png";
 import Button from "./button";
 import DotIcon from "./dotIcon";
 import Title from "./title";
@@ -22,10 +20,22 @@ type Project = {
   buttons: string[];
   live?: string;
   github?: string;
+  note?: string;
 };
 
 export default function Project() {
   const projects: Project[] = [
+    {
+      image: foody,
+      stack:
+        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query, Context",
+      title: "Foody",
+      desc: "A modern online store offering fresh groceries, food items, beverages, household essentials, and beauty products. Shop conveniently with quality products, secure checkout, and fast doorstep delivery.",
+      buttons: ["Live <~>"],
+      live: "https://foody-nu-ten.vercel.app/",
+      github: "https://github.com/cyndylove1/foody",
+      note:"Note: Currently still Working on the project"
+    },
     {
       image: propapay,
       stack:
@@ -160,6 +170,7 @@ export default function Project() {
                     >
                       {p.desc}
                     </p>
+                    <p className="py-4 font-bold text-[13px]">{p.note}</p>
 
                     {/* ACTIONS */}
                     <div className="flex items-center gap-[20px] mt-4">

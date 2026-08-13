@@ -5,7 +5,7 @@ import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io5";
 import { AnimatedItem } from "./animatedItem";
 import lapo from "@/public/assets/lapo1.png";
-import foody from "@/public/assets/foody4.png"
+import foody from "@/public/assets/hero-image.png"
 import propapay from "@/public/assets/propapay1.png";
 import rsa from "@/public/assets/rsa1.png";
 import Button from "./button";

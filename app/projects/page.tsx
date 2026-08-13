@@ -10,7 +10,7 @@ import mental from "@/public/assets/mental.png";
 import flowApp from "@/public/assets/flow app1.png";
 import rsa from "@/public/assets/rsa1.png";
 import lapo from "@/public/assets/lapo1.png";
-import foody from "@/public/assets/foody4.png";
+import foody from "@/public/assets/hero-image.png";
 import propapay from "@/public/assets/propapay1.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
